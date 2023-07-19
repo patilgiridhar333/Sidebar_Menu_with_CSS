@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#ma{
+    width: 100%;
+    height: 100vh;
+   background-image: url(koko.jpg)
+}
+
+
+#ch{
+    display: none;
+}
+
+#bar{
+    font-size: 40px;
+    color: white;
+  margin: 0 0 0 10px;
+position: absolute;
+left: 10px;
+line-height: 60px;
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Raleway', sans-serif;
+ font-family: 'Roboto Serif', serif;
+}
+#cross{
+    font-size: 35px;
+    color: azure;
+    position: absolute;
+    left: 250px;
+    top: 5px;
+    opacity: 1;
+}
+.lin a{
+   
+    text-decoration: none;
+    color: whitesmoke;
+     font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500;
+   font-size: 20px;
+  
+   }
+
+ /* .lin a{
+    color: white;
+    font-size: larger;
+    font-size: 20px;
+ }   */
+
+ #nav ul{
+    position: absolute;
+    top:100px;
+    width: 300px;
+    /* left: 30px; */
+}
+
+ #soc{
+    position: absolute;
+    bottom: 50px;
+    left: 90px;
+    font-size: 25px;
+    
+ }
+ #soc a{
+    color: white;
+    margin-right: 10px;
+    opacity:1;
+ }
+
+ .lin:hover{
+   
+    border: 1px solid rgba(240, 240, 240, 0.3);
+    box-shadow: 0 0 7px black;
+ }
+ .lin{
+    margin: 10px;
+    padding: 10px 20px;
+ }
+ #nav li i{
+    color: white;
+    margin-right: 5px;
+ }
+ #nav{
+    position: fixed;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(0,0, 0, 0.2);
+    box-shadow: 0 0 10px black;
+ 
+
+ }
+
+ #ch:checked ~ #nav{
+    left: 0;
+    transition: linear 0.2s;
+
+ }
+ #ch:checked ~ #sib{
+    opacity: 0;
+ }
+ #soc a i:hover{
+    transition: 0.5s;
+    transform: scale(1.3);
+    
+
+ }
+ #cross i:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+  
+ }
+ #bar i:hover{
+   transition: 0.5s;
+    transform: scale(1.1);
+  
+ }
+ 
